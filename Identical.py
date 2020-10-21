@@ -1,7 +1,7 @@
 import wave
 
-Orignal = wave.open('ECSample3_converted.wav', 'r')
-Converted = wave.open('out_ECSample3_problematic.wav.wav','r')
+Orignal = wave.open('OrignalAudiofileName.wav', 'r')
+Converted = wave.open('ConvertedAudiofileName.wav.wav','r')
 
 n = Orignal.getnframes()
 
